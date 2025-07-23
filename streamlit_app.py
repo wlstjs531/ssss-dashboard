@@ -3,10 +3,10 @@ import streamlit as st
 # 페이지 선택
 page = st.sidebar.selectbox(
     "페이지를 선택하세요",
-    ["나의 IB 학습자상 목표", "기후위기에 대응하는 식생활 습관 미션"]
+    ["나의 2학기 목표 학습자상", "기후위기에 대응하는 식생활 습관 미션"]
 )
 
-if page == "나의 IB 학습자상 목표":
+if page == "나의 2학기 목표 학습자상":
     st.title("MY 학습자상 Green_에코 미션 app")
 
     # 1줄: 목표 학습자상 작성
